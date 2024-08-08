@@ -1,0 +1,17 @@
+{
+  "name": "voting-dapp",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "ao-deploy aod.config.js",
+    "test": "arweave test . --lpath='./src/?.lua;./src/?/?.lua;./src/?/init.lua;/Users/dexter/Library/Application Support/create-ao-contract-nodejs/aos-process/?.lua'"
+  },
+  "type": "module",
+  "dependencies": {
+    "ao-deploy": "^0.2.2"
+  },
+  "cacMetadata": {
+    "initVersion": "1.0.1"
+  },
+  "packageManager": "pnpm@8.14.1"
+}
